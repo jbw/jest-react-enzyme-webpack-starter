@@ -1,0 +1,7 @@
+.error {
+    color: #cc1f1a;
+    background-color: #fcebea;
+    border-radius: .25rem;
+    border: 0 solid #ef5753;
+    border-width: 1px;
+}

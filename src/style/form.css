@@ -1,0 +1,90 @@
+.form {
+    background-color: #fff;
+    display: block;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    margin-top: 0em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .12), 0 2px 4px 0 rgba(0, 0, 0, .08);
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-top: 0 solid rgba(76, 106, 172, 0.5);
+    border-width: 5px;
+}
+
+.form:after {
+    transition: all 0.8s ease 0s;
+}
+
+.input {
+    border: 0 solid #dae1e7;
+    border-radius: .25rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border-width: 1px;
+    display: inline-block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+}
+
+.justify {
+    justify-content: center;
+    display: flex;
+}
+
+.justifyBetween {
+    justify-content: space-between;
+    display: flex;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+}
+
+.formWrapper {
+    padding: 2.5rem .75rem 2.5rem .75rem;
+    border: 0 solid #dae1e7;
+    border-width: 1px;
+    background-color: #f1f5f8;
+}
+
+.textDarker {
+    color: #606f7b;
+    font-weight: 700;
+}
+
+.marginBottomSmall {
+    margin-bottom: .5rem;
+}
+
+.marginBottom {
+    margin-bottom: 1rem;
+}
+
+.marginBottomBig {
+    margin-bottom: 1.5rem;
+}
+
+.marginTopSmall {
+    margin-top: .5rem;
+}
+
+.marginTop {
+    margin-top: 1rem;
+}
+
+.block {
+    display: block;
+}
+
+.widthFull {
+    width: 100%;
+}
+
+.maxWidth {
+    max-width: 20rem;
+}

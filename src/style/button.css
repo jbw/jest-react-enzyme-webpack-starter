@@ -1,0 +1,27 @@
+.primaryButton {
+    background-color: rgba(76, 106, 172, 0.5);
+    color: #fff;
+    border-radius: 5px;
+    outline: 0;
+    font-weight: 700;
+    cursor: pointer;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+    padding: .5rem 2rem;
+    border: none;
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.primaryButton:hover {
+    background: rgba(76, 106, 172, 0.8)
+}
+
+.secondaryButton {
+    background-color: transparent;
+    color: #2891e6ca;
+    border: none;
+    outline: 0;
+    display: block;
+    cursor: pointer;
+}
